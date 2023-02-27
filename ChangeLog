@@ -1,0 +1,81 @@
+2023-02-24  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Version, Date): Release 0.0.1
+	* inst/NEWS.Rd: Added
+
+	* src/linear_regression.cpp: Add example using data(trees)
+	* man/linear_regression.Rd: Idem
+
+2023-02-24  James Yang  <jamesyang916@gmail.com>
+
+	* src/linear_regression.cpp (linear_regression): Use gradient descent
+	together with squared loss to fit model
+	* man/linear_regression.Rd: Updated
+
+2023-02-23  Dirk Eddelbuettel  <edd@debian.org>
+
+	* README.md: Added
+	* .github/workflows/ci.yaml (jobs): Turn on CI
+	* .Rbuildignore: Add .github
+	* DESCRIPTION: Tweaks and edits
+	* NAMESPACE: Idem
+
+	* src/linear_regression.cpp (linear_regression): Much more compact
+	code (as suggested by James in #1)
+	* src/quadratic_expression.cpp (quadratic_expression): Use a view for
+	the sigma matrix (as suggested by James in #2)
+
+2023-02-22  Dirk Eddelbuettel  <edd@debian.org>
+
+	* src/linear_regression.cpp (linear_regression): Example of
+	evaluating a linear regression at a given parameter estimate
+	* man/linear_regression.Rd: Idem
+        * src/RcppExport.cpp: Idem
+        * R/RcppExports.R: Idem
+
+	* inst/tinytest/test_RcppFastAD.R: Add minimal tests
+
+2023-02-19  Dirk Eddelbuettel  <edd@debian.org>
+
+	* src/black_scholes.cpp (black_scholes): Also provide rho and theta
+
+2023-02-18  Dirk Eddelbuettel  <edd@debian.org>
+
+	* src/quadratic_expression.cpp (quadratic_expression): New example
+	for evaluating X' * Sigma * X and returning gradient of X
+	* man/quadratic_expression.Rd: Idem
+        * src/RcppExport.cpp: Idem
+        * R/RcppExports.R: Idem
+
+2023-02-17  Dirk Eddelbuettel  <edd@debian.org>
+
+	* src/black_scholes.cpp (black_scholes): Renamed function and file,
+	extended to take argument, and return a result matrix
+	* man/black_scholes.Rd: Idem
+        * src/RcppExport.cpp: Idem
+        * R/RcppExports.R: Idem
+
+2023-02-16  Dirk Eddelbuettel  <edd@debian.org>
+
+	* src/black_scholes_example.cpp (black_scholes_example): Also compute
+	vega via automatic differentiation
+
+	* src/Makevars (CXX_STD): Set CXX_STD to CXX17
+	* src/Makevars.win (CXX_STD): Idem
+
+2023-02-15  Dirk Eddelbuettel  <edd@debian.org>
+
+	* inst/include/: Include FastAD version 3.1.0
+
+	* src/black_scholes_example.cpp: Add based on FastAD example
+	* man/black_scholes_example.Rd: Generated
+
+        * DESCRIPTION: Generated via kitten() as RcppEigen package
+        * NAMESPACE: Idem
+        * src/RcppExport.cpp: Idem
+        * src/Makevars: Idem
+        * src/Makevars.win: Idem
+        * R/RcppExports.R: Idem
+        * man/RcppFastAD-package.Rd: Idem
+	* test/tinytest.R: Idem
+        * inst/tinytest/test_RcppFastAD.R: Idem
