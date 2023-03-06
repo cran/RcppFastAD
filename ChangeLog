@@ -1,6 +1,46 @@
-2023-02-24  Dirk Eddelbuettel  <edd@debian.org>
+2023-03-05  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Version, Date): Release 0.0.2
+
+2023-03-03  James Yang  <jamesyang916@gmail.com>
+
+	* src/linear_regression.cpp (linear_regression): Further
+	simplification
+	* src/quadratic_expression.cpp (quadratic_expression): Idem
+
+2023-03-03  Dirk Eddelbuettel  <edd@debian.org>
+
+	* src/linear_regression.cpp (linear_regression): Return theta
+	and gradient as vectors instead of (oversized) matrices
+	* src/quadratic_expression.cpp (quadratic_expression): Return
+	scalar and vector instead of two (oversized) matrices
+	* inst/tinytest/test_quadratic_expression.R: Adjusted
+
+2023-03-02  Dirk Eddelbuettel  <edd@debian.org>
+
+	* inst/tinytest/test_black_scholes.R: Renamed
+	* inst/quadratic_expression.R: New tests
+	* inst/linear_regression.R: New tests
+
+2023-03-01  Dirk Eddelbuettel  <edd@debian.org>
+
+	* inst/include/fastad_bits/reverse/core/value_view.hpp: Protect
+	one expression from nullptr
+
+2023-02-28  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (URL, BugReports): Added
+
+2023-02-27  Dirk Eddelbuettel  <edd@debian.org>
+
+	* README.md: Additional badges
+
+2023-02-25  Dirk Eddelbuettel  <edd@debian.org>
 
 	* DESCRIPTION (Version, Date): Release 0.0.1
+
+2023-02-24  Dirk Eddelbuettel  <edd@debian.org>
+
 	* inst/NEWS.Rd: Added
 
 	* src/linear_regression.cpp: Add example using data(trees)

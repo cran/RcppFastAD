@@ -1,11 +1,11 @@
-cb38450860fa6bba2fccfc231e32d1a6 *ChangeLog
-ae1eaed703463f59d6f11a3c440179fe *DESCRIPTION
+5e34b90fc81ebb42c6aeda389617e916 *ChangeLog
+eedd571ad8aa0af42022ea016ee6eda6 *DESCRIPTION
 40ee99be353c732a421992b24a38f7fc *NAMESPACE
 56b1f4ba3d558b72e3bc980fcb8a330e *R/RcppExports.R
-f7fec0ab9252f3b8caba810db5e8ad9a *README.md
-369f1639333d63741e701d5f5aa81011 *build/partial.rdb
+db7954745519cc90dcc7138c5cf4a979 *README.md
+11e27bb9567acf96d57a9782225006ca *build/partial.rdb
 0a7e134aec4b20592b1006caa1ffecb9 *cleanup
-323430d83ecde2dc3c657a599beef7d3 *inst/NEWS.Rd
+5b324cd023bd190aaadea1a002b174a9 *inst/NEWS.Rd
 7df620713830488c3c96f0adf45b6bf1 *inst/include/fastad
 8331848c075796283f1944a0be3b35fa *inst/include/fastad_bits/forward.hpp
 4f2185b262ed0c6b0b54c94f4e7c7aa9 *inst/include/fastad_bits/forward/core.hpp
@@ -33,7 +33,7 @@ d7cbe12a16d64b2cad6f16f551fc748b *inst/include/fastad_bits/reverse/core/hessian.
 a05e0a5b9948f86a590a210403f3e30b *inst/include/fastad_bits/reverse/core/transpose.hpp
 f04f2d291126311d8302979a6498ce18 *inst/include/fastad_bits/reverse/core/unary.hpp
 c7f9ecc36b134010c39e6ef21d1367d7 *inst/include/fastad_bits/reverse/core/value_adj_view.hpp
-d3614cdf0145282c019181359f5c1792 *inst/include/fastad_bits/reverse/core/value_view.hpp
+9f8d6fccadbe6140df6cc65d6e5644af *inst/include/fastad_bits/reverse/core/value_view.hpp
 aca81056e2433dee4032bcb301a9e1e7 *inst/include/fastad_bits/reverse/core/var.hpp
 63729fbb5184dd01d200da1774adb952 *inst/include/fastad_bits/reverse/core/var_view.hpp
 83e690ea37ee9264ba078e4fd8131fc6 *inst/include/fastad_bits/reverse/stat.hpp
@@ -48,7 +48,9 @@ a5292dcbe6723f0c5cf21d3fe6dd4163 *inst/include/fastad_bits/util/ptr_pack.hpp
 1b5ef2914526cf3f349043b41516d984 *inst/include/fastad_bits/util/size_pack.hpp
 d6f6619b627260c2fb2931f9a64737b3 *inst/include/fastad_bits/util/type_traits.hpp
 a742403d7afc0c8f8d3d499238e7cc91 *inst/include/fastad_bits/util/value.hpp
-5ebe2909df814c2d37ba56f24bdc776d *inst/tinytest/test_RcppFastAD.R
+5ebe2909df814c2d37ba56f24bdc776d *inst/tinytest/test_black_scholes.R
+1aeb96771dc40ceed4fba572769723f9 *inst/tinytest/test_linear_regression.R
+4c010f175b35dd7aa49b9e68a227bada *inst/tinytest/test_quadratic_expression.R
 39b1f50d3b28751ca3aa6b05afe4a5de *man/RcppFastAD-package.Rd
 00f36f86e2d21d019866269c5d2fec5a *man/black_scholes.Rd
 22ac6b1daface7cff1f4fdbea5724b5e *man/linear_regression.Rd
@@ -58,5 +60,5 @@ eafec05b79c99ebf4b7f39d47199ca06 *man/quadratic_expression.Rd
 af058401cad4a4ac282066b8a539a290 *src/RcppExports.cpp
 0898b33b3719afb215ef08e6af239c1c *src/black_scholes.cpp
 82715f8f0b0d5ba65052f7df79b8434a *src/linear_regression.cpp
-8d62408ad440cbed536f41a9e2410997 *src/quadratic_expression.cpp
+1c69b01ac8d7ae44e14a237095a7b442 *src/quadratic_expression.cpp
 844a112d75148751ce3997dd96f1795a *tests/tinytest.R
