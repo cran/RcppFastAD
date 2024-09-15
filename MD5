@@ -1,11 +1,11 @@
-5e34b90fc81ebb42c6aeda389617e916 *ChangeLog
-eedd571ad8aa0af42022ea016ee6eda6 *DESCRIPTION
+593c36d99f430cc9ba875d713a047303 *ChangeLog
+a7994ecfb9a6c1d11f3814c7c7c5cf72 *DESCRIPTION
 40ee99be353c732a421992b24a38f7fc *NAMESPACE
 56b1f4ba3d558b72e3bc980fcb8a330e *R/RcppExports.R
-db7954745519cc90dcc7138c5cf4a979 *README.md
-11e27bb9567acf96d57a9782225006ca *build/partial.rdb
+aa5e81af9f1b436c53988c85325d6ad5 *README.md
+6e9962c676d601833a106b69709d6d9f *build/partial.rdb
 0a7e134aec4b20592b1006caa1ffecb9 *cleanup
-5b324cd023bd190aaadea1a002b174a9 *inst/NEWS.Rd
+2b97c578fe8932abae42d25383f34289 *inst/NEWS.Rd
 7df620713830488c3c96f0adf45b6bf1 *inst/include/fastad
 8331848c075796283f1944a0be3b35fa *inst/include/fastad_bits/forward.hpp
 4f2185b262ed0c6b0b54c94f4e7c7aa9 *inst/include/fastad_bits/forward/core.hpp
@@ -55,8 +55,8 @@ a742403d7afc0c8f8d3d499238e7cc91 *inst/include/fastad_bits/util/value.hpp
 00f36f86e2d21d019866269c5d2fec5a *man/black_scholes.Rd
 22ac6b1daface7cff1f4fdbea5724b5e *man/linear_regression.Rd
 eafec05b79c99ebf4b7f39d47199ca06 *man/quadratic_expression.Rd
-8eea6f6718d76e79508a21959b49689c *src/Makevars
-8eea6f6718d76e79508a21959b49689c *src/Makevars.win
+a87c77d102c5f7092ef72e202be8604d *src/Makevars
+a87c77d102c5f7092ef72e202be8604d *src/Makevars.win
 af058401cad4a4ac282066b8a539a290 *src/RcppExports.cpp
 0898b33b3719afb215ef08e6af239c1c *src/black_scholes.cpp
 82715f8f0b0d5ba65052f7df79b8434a *src/linear_regression.cpp
